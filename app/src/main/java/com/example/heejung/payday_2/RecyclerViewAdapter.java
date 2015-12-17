@@ -12,11 +12,9 @@ import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageRequest;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -43,7 +41,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         CardView itemCardView = (CardView)layoutInflater.inflate(R.layout.layout_cardview, parent, false);
         return new ItemHolder(itemCardView, this);
     }
-
 
 
     @Override
