@@ -16,7 +16,9 @@ public class Seller {
     private String Description ;
     private String DateAdd  ;
 
+
     public String getmMarketId() { return MarketId ; }
+
 
     public void setmMarketId (String MarketId ) { this.MarketId  = MarketId ; }
 
