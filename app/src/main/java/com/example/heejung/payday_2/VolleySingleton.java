@@ -3,10 +3,10 @@ package com.example.heejung.payday_2;
 import android.content.Context;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
-
 /**
  * Created by Heejung on 2015-11-24.
  */
+ 
 public class VolleySingleton {
 
     private static VolleySingleton mInstance = null;
