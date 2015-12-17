@@ -39,6 +39,7 @@ public class URLConnector extends Thread{
                 conn.setDoOutput(true);
 
                 int resCode = conn.getResponseCode();
+                
                 if(resCode == HttpURLConnection.HTTP_OK){
                     BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                     String line = null;
